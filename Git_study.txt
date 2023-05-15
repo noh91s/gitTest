@@ -1,0 +1,26 @@
+git -> 버젼관리(형상관리), 이력 관리, 프로젝트 관리
+gittoken
+// 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 //
+
+CICD
+GitHub Actions CICD
+
+
+> 로컬(local) -> remote(github Repository)
+echo "# gitTest" >> README.md
+git init  // git 초기화 (필수)
+git add README.md // .git 추가 모든파일 (필수)
+git commit -m "first commit(메세지)" // commit을 해야함
+git branch -M main // 브런치 확인 기본 master
+git remote add origin https://github.com/noh91s/gitTest.git // 저장소 주소
+git push -u origin main // 최종 실행
+
+git config --global user.name 이름
+git config --global user.email 등록이메일
+
+> 기본 윈도우 명령어
+cd폴더명	-> 폴더로 이동
+dir	-> 현재 디렉토리 ls
+cls	-> cmd창 정리
+
+	
